@@ -1,0 +1,45 @@
+{
+  "name": "liquid",
+  "version": "1.0.0",
+  "description": "A discord bot with command handler and reloadable commands. Based off AnIdiotsGuide's GuideBot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node setup.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malokdev/liquid"
+  },
+  "author": "Hisham Abdullah (https://malokdev.tk)",
+  "contributors": [
+    ""
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/malokdev/liquid/issues"
+  },
+  "homepage": "https://github.com/malokdev/liquid",
+  "dependencies": {
+    "better-sqlite3": "^5.4.0",
+    "canvas": "^2.6.1",
+    "chalk": "^2.4.2",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.0.0",
+    "ffmpeg": "0.0.4",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.3.1",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "path": "^0.12.7",
+    "pm2": "^4.2.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "require-promise": "^1.0.1",
+    "tsubaki": "^1.3.8",
+    "ytdl-core": "^2.0.1"
+  }
+}
